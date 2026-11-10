@@ -1,0 +1,18 @@
+{
+    "model_type": "IsolationForest",
+    "algorithm": "sklearn.ensemble.IsolationForest",
+    "features": [
+        "Global_active_power"
+    ],
+    "contamination": 0.01,
+    "random_state": 42,
+    "n_estimators": 100,
+    "trained_at": "2026-11-05T11:10:20.534321",
+    "total_training_samples": 15000,
+    "training_anomalies_detected": 150,
+    "anomaly_percentage": 1.0,
+    "normal_mean_power_kw": 1.8749,
+    "anomaly_min_power_kw": 5.854,
+    "anomaly_max_power_kw": 8.698,
+    "decision_threshold_offset": -0.716023603012933
+}

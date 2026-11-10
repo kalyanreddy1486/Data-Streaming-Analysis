@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.pytest_cache/
+
+# Data and Raw files
+data/household_power_consumption.txt
+data/household_power_consumption.zip
+
+# ML model files and artifacts
+ml/__pycache__/
+
+# Logs
+logs/*.log
+logs/*.txt
+
+# Operating System
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+
+# Environment configuration
+.env
+
+# Temporary artifacts
+test*.pdf
+query
+config/stream_state.json.tmp
